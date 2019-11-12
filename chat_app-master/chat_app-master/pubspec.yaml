@@ -1,0 +1,82 @@
+# COPYRIGHT 2018 THIRD DEGREE APPS. ALL RIGHTS RESERVED.
+
+name: chat_app
+description: A chat app using Flutter with Firebase as the backend
+authors:
+  - Tim Anthony Manuel
+version: 1.0.0+16
+# depends on what version your app is already. change when necessary.
+# +16 means build number
+
+# THE LICENSE OF THE CODES
+license: 'Apache 2.0'
+
+environment:
+  sdk: '>=2.0.0-dev.68.0 <3.0.0'
+  flutter: '>0.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+  # FOR STORING PREFERENCES MADE BY THE USER
+  shared_preferences: ^0.4.3
+
+  # FOR CONNECTING TO FIREBASE CLOUD FIRESTORE DB
+  cloud_firestore: '^0.8.2'
+
+  # FOR AUTHENTICATING USERS WITH FIREBASE
+  firebase_auth: ^0.6.6
+
+  # TO USE GOOGLE'S OAUTH 2 SERVER FOR AUTHENTICATION
+  google_sign_in: ^3.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/messageDetails.json
+    - assets/recentChats.json
+    - assets/images/avatar-1.jpg
+    - assets/images/icons8-user-48.png
+  #  - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/trajan/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #         style: italic
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages

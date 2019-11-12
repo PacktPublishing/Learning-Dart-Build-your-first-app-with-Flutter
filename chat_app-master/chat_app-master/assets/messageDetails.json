@@ -1,0 +1,27 @@
+{
+    "12345": {
+        "avatar": "https://avatarfiles.alphacoders.com/132/132399.jpg",
+        "messages": [{
+                "type": "string",
+                "content": "hey, what's up?",
+                "from": "friend",
+                "display_name": "Thanos"
+            },
+            {
+                "type": "string",
+                "content": "did you see this picture yet?",
+                "from": "friend",
+                "display_name": "Thanos"
+            }, {
+                "type": "image/url",
+                "content": "https://example.com/pic/123456789",
+                "from": "friend",
+                "display_name": "Thanos"
+            }, {
+                "type": "string",
+                "content": "why???",
+                "from": "me"
+            }
+        ]
+    }
+}

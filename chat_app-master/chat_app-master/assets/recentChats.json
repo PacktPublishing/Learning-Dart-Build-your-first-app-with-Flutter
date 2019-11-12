@@ -1,0 +1,12 @@
+{
+    "12345": {
+        "avatar": "https://avatarfiles.alphacoders.com/132/132399.jpg",
+        "last_message": {
+            "type": "string",
+            "content": "hey, what's up?",
+            "from": "friend",
+            "timestamp": 1234556547657
+        },
+        "display_name": "Thanos"
+    }
+}
